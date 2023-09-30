@@ -14,10 +14,6 @@ import {
 import {notFound, errorHandler} from './middlewares';
 import authenticate from './functions/authenticate';
 import {MyContext} from './interfaces/MyContext';
-import {createRateLimitRule} from 'graphql-rate-limit';
-import {shield} from 'graphql-shield';
-import {makeExecutableSchema} from '@graphql-tools/schema';
-import {applyMiddleware} from 'graphql-middleware';
 
 const app = express();
 
