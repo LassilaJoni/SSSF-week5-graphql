@@ -28,3 +28,7 @@ Add authentication and brute force prevention to last weeks assignment.
 # Important
 
 - Always empty your cats and users after tests.
+
+![Test](https://github.com/LassilaJoni/SSSF-week5-graphql/assets/31948894/407ee5ce-6a87-4863-96cb-af37879285e9)
+
+
