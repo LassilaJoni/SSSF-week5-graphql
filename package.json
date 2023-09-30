@@ -7,7 +7,6 @@
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "copyGraphql": "copyfiles --error src/api/schemas/*.graphql dist",
     "postbuild": "npm run copyGraphql",
     "lint": "eslint --fix src test",
     "test": "echo \"no test to run\" && exit 0"
